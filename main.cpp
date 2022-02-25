@@ -1,9 +1,11 @@
 #include <iostream>
 #include <WinSock2.h>
 
-#pragma (lib, "wn32_2.lib")
+#pragma comment(lib, "ws2_32.lib")
 
 using namespace std;
+
+
 
 int main()
 {
